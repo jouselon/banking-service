@@ -5,6 +5,12 @@
     font-weight: 900;
     font-style: normal;
 }
+@font-face {
+    font-family: 'YClover-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/YClover-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
 
 /*전체 설정*/
 *{
@@ -73,13 +79,16 @@ aside .top{
 
 .logo h2{
     font-family: 'ClimateCrisisKR-1979', sans-serif;
-    font-size: 50px;
-
-
+    font-size: 37px;
+    color: gold;
     /*background: linear-gradient(#7474BF, #348AC7);*/
     /*color: transparent;*/
     /*background-clip: text;*/
     /*-webkit-background-clip: text;*/
+}
+
+.logo h2 span{
+    color: #9ACD32;
 }
 
 aside .logo{
